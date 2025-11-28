@@ -1,0 +1,222 @@
+<!DOCTYPE html> 
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Desigualdad Social | Retos Sociales</title>
+  <link rel="stylesheet" href="styles.css" />
+  <style>
+    .acid-section {
+      max-width: 1100px;
+      margin: 4rem auto;
+      padding: 0 1.5rem;
+    }
+    .card {
+      background: #fff;
+      border-radius: 1rem;
+      box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+      margin-bottom: 2rem;
+      overflow: hidden;
+      transition: transform .3s, box-shadow .3s;
+    }
+    .card:hover {
+      transform: scale(1.02);
+      box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+    }
+    .card-header {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      padding: 1.5rem;
+      border-bottom: 1px solid #eee;
+    }
+    .icon-circle {
+      background: #e0f2fe;
+      color: #0369a1;
+      font-size: 1.25rem;
+      padding: 0.75rem;
+      border-radius: 50%;
+    }
+    .card-title {
+      font-size: 1.5rem;
+      font-weight: 700;
+      color: #0f172a;
+    }
+    .card-content {
+      padding: 1.5rem;
+      color: #334155;
+      line-height: 1.7;
+      font-size: 1rem;
+    }
+    .video-container {
+      position: relative;
+      padding-bottom: 56.25%;
+      height: 0;
+      overflow: hidden;
+      border-radius: 1rem;
+      box-shadow: 0 6px 20px rgba(0,0,0,0.2);
+      margin: 2rem 0;
+    }
+    .video-container iframe {
+      position: absolute;
+      top:0;
+      left:0;
+      width:100%;
+      height:100%;
+      border:0;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- NAV -->
+  <nav class="navbar">
+    <div class="container">
+      <a href="index.html" class="logo">
+        <div class="logo-circle">⚖️</div>
+        <span>Retos Sociales</span>
+      </a>
+      <div class="nav-links">
+        <div class="nav-links">
+        <a href="index.html" class="active">Inicio</a>
+        <a href="desigualdad.html">Desigualdad</a>
+        <a href="pobreza.html">Pobreza</a>
+        <a href="accesolimitado.html">Acceso Limitado</a>
+        <a href="discriminacion.html">Discriminación</a>
+      </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-overlay"></div>
+    <img src="https://images.unsplash.com/photo-1491438590914-bc09fcaaf77a?q=80&w=1920" 
+         alt="Desigualdad social" class="hero-bg">
+    <div class="hero-content">
+      <h1>Desigualdad Social</h1>
+      <p>Diferencias económicas, educativas y sociales que afectan oportunidades y bienestar.</p>
+    </div>
+  </section>
+
+  <!-- CONTENIDO -->
+  <section class="acid-section">
+
+    <div class="card">
+      <div class="card-content">
+        <p>
+          La <strong>desigualdad social</strong> es la diferencia de acceso a recursos, derechos y oportunidades entre distintos grupos de la sociedad. 
+        </p>
+        <p>
+          Hoy en día, el <strong>10% más rico</strong> posee más del 75% de la riqueza mundial, mientras que millones de personas tienen dificultades para cubrir necesidades básicas. La desigualdad se refleja en ingresos, educación, salud, vivienda y posibilidades de desarrollo.
+        </p>
+        <img src="https://images.unsplash.com/photo-1509099836639-18ba1795216d?q=80&w=1920" 
+             alt="Desigualdad urbana" 
+             style="width:100%; border-radius:1rem; margin-top:1.5rem;">
+      </div>
+    </div>
+
+    <!-- Impacto en personas -->
+    <div class="card">
+      <div class="card-header">
+        <div class="icon-circle">👥</div>
+        <div class="card-title">Impacto en las personas</div>
+      </div>
+      <div class="card-content">
+        <p>
+          La desigualdad limita las oportunidades de las personas más vulnerables. Quienes nacen en entornos desfavorecidos suelen enfrentar:
+        </p>
+        <ul style="list-style-type: disc; padding-left:1.5rem;">
+          <li>Peor acceso a educación de calidad.</li>
+          <li>Menor esperanza de vida.</li>
+          <li>Dificultades para acceder a empleos bien remunerados.</li>
+          <li>Mayor riesgo de exclusión social.</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Impacto en la economía -->
+    <div class="card">
+      <div class="card-header">
+        <div class="icon-circle">💼</div>
+        <div class="card-title">Impacto en la economía</div>
+      </div>
+      <div class="card-content">
+        <p>
+          La desigualdad no solo afecta a individuos, también frena el crecimiento económico. Según la OCDE:
+        </p>
+        <ul style="list-style-type: disc; padding-left:1.5rem;">
+          <li>Reduce la productividad laboral.</li>
+          <li>Dificulta la innovación.</li>
+          <li>Aumenta el gasto público en ayudas sociales.</li>
+          <li>Genera inestabilidad social y tensiones.</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- VIDEO -->
+    <div class="card">
+      <div class="card-header">
+        <div class="icon-circle">🎥</div>
+        <div class="card-title">Video explicativo</div>
+      </div>
+      <div class="card-content">
+        <p>Este video analiza las causas de la desigualdad y sus consecuencias en la sociedad:</p>
+        <div class="video-container">
+          <iframe src="https://www.youtube.com/embed/Z5JC9Ve1sfI" 
+                  title="Desigualdad social explicada"
+                  allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+
+    <!-- CASO REAL -->
+    <div class="card" style="background: linear-gradient(to right, #f8fafc, #eef2ff);">
+      <div class="card-header">
+        <div class="icon-circle">📍</div>
+        <div class="card-title">Caso real: Brecha económica en Estados Unidos</div>
+      </div>
+      <div class="card-content">
+        <p>
+          En Estados Unidos, el salario mínimo federal permanece en 7,25 dólares desde 2009. Mientras tanto, el costo de vida ha aumentado más de un 40%. 
+          Esto ha provocado que millones de trabajadores, incluso con empleo estable, vivan en pobreza relativa.
+        </p>
+        <p>
+          Este caso muestra cómo la falta de actualización de políticas laborales puede aumentar la <strong>desigualdad salarial</strong> entre clases sociales y dificultar el acceso a vivienda, salud y educación.
+        </p>
+        <img src="https://images.unsplash.com/photo-1520975918318-3b82b0c34fa2?q=80&w=1920" 
+             alt="Desigualdad económica" 
+             style="width:100%; border-radius:1rem; margin-top:1rem;">
+      </div>
+    </div>
+
+    <!-- ¿QUÉ PODEMOS HACER? -->
+    <div class="card" style="background: linear-gradient(to right, #e0f2fe, #ccfbf1);">
+      <div class="card-content">
+        <h3 style="font-size:1.5rem; font-weight:700; color:#0f172a;">¿Qué podemos hacer?</h3>
+        <ul style="list-style-type: disc; padding-left:1.5rem;">
+          <li>Promover políticas de redistribución justa de la riqueza.</li>
+          <li>Invertir en educación y formación profesional accesible para todos.</li>
+          <li>Impulsar salarios dignos y empleo estable.</li>
+          <li>Garantizar acceso universal a salud y vivienda.</li>
+          <li>Reducir la brecha digital mediante tecnología accesible.</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="cta">
+      <h3>La igualdad de oportunidades es esencial</h3>
+      <p>Reducir la desigualdad es clave para construir sociedades más justas, estables y prósperas.</p>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="footer-content">
+      <div class="footer-logo">⚖️ Retos Sociales</div>
+      <p>Proyecto educativo sobre justicia social y reducción de desigualdades.</p>
+      <span>© 2024 Retos Sociales. Todos los derechos reservados.</span>
+    </div>
+  </footer>
+
+</body>
+</html>

@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Acceso Limitado a Servicios | Retos Sociales</title>
+  <link rel="stylesheet" href="styles.css" />
+  <style>
+    .acid-section {
+      max-width: 1100px;
+      margin: 4rem auto;
+      padding: 0 1.5rem;
+    }
+    .card {
+      background: #fff;
+      border-radius: 1rem;
+      box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+      margin-bottom: 2rem;
+      overflow: hidden;
+      transition: transform .3s, box-shadow .3s;
+    }
+    .card:hover {
+      transform: scale(1.02);
+      box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+    }
+    .card-header {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      padding: 1.5rem;
+      border-bottom: 1px solid #eee;
+    }
+    .icon-circle {
+      background: #e0f2fe;
+      color: #0369a1;
+      font-size: 1.25rem;
+      padding: 0.75rem;
+      border-radius: 50%;
+    }
+    .card-title {
+      font-size: 1.5rem;
+      font-weight: 700;
+      color: #0f172a;
+    }
+    .card-content {
+      padding: 1.5rem;
+      color: #334155;
+      line-height: 1.7;
+      font-size: 1rem;
+    }
+    .video-container {
+      position: relative;
+      padding-bottom: 56.25%;
+      height: 0;
+      overflow: hidden;
+      border-radius: 1rem;
+      box-shadow: 0 6px 20px rgba(0,0,0,0.2);
+      margin: 2rem 0;
+    }
+    .video-container iframe {
+      position: absolute;
+      top:0;
+      left:0;
+      width:100%;
+      height:100%;
+      border:0;
+    }
+  </style>
+</head>
+
+<body>
+  <nav class="navbar">
+    <div class="container">
+      <a href="index.html" class="logo">
+        <div class="logo-circle">🔒</div>
+        <span>Retos Sociales</span>
+      </a>
+     <div class="nav-links">
+        <a href="index.html" class="active">Inicio</a>
+        <a href="desigualdad.html">Desigualdad</a>
+        <a href="pobreza.html">Pobreza</a>
+        <a href="accesolimitado.html">Acceso Limitado</a>
+        <a href="discriminacion.html">Discriminación</a>
+      </div>
+    </div>
+  </nav>
+
+  <section class="hero">
+    <div class="hero-overlay"></div>
+    <img src="https://images.unsplash.com/photo-1581579185169-379b7ba355b6?q=80&w=1920" alt="Falta de recursos" class="hero-bg">
+    <div class="hero-content">
+      <h1>Acceso Limitado a Servicios Esenciales</h1>
+      <p>Cuando la falta de recursos impide estudiar, recibir atención médica o vivir dignamente.</p>
+    </div>
+  </section>
+
+  <section class="acid-section">
+    <div class="card">
+      <div class="card-content">
+        <p>
+          El <strong>acceso limitado</strong> a servicios como educación, salud, agua potable, vivienda, transporte o tecnología afecta a millones de personas en todo el mundo.
+        </p>
+        <p>
+          La falta de infraestructuras, la pobreza, las desigualdades geográficas y los conflictos hacen que muchos no puedan disfrutar de derechos básicos. Esto perpetúa ciclos de exclusión y reduce las oportunidades de desarrollo personal y profesional.
+        </p>
+        <img src="https://images.unsplash.com/photo-1520975918318-3b82b0c34fa2?q=80&w=1920" 
+             alt="Acceso desigual" 
+             style="width:100%; border-radius:1rem; margin-top:1.5rem;">
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-header">
+        <div class="icon-circle">🚫</div>
+        <div class="card-title">Ámbitos con acceso limitado</div>
+      </div>
+      <div class="card-content">
+        <ul style="list-style-type: disc; padding-left:1.5rem;">
+          <li><strong>Educación:</strong> escuelas lejanas, falta de recursos, abandono escolar.</li>
+          <li><strong>Sanidad:</strong> hospitales insuficientes, falta de médicos, medicamentos costosos.</li>
+          <li><strong>Agua y saneamiento:</strong> comunidades sin agua potable o baños adecuados.</li>
+          <li><strong>Vivienda:</strong> familias viviendo en condiciones inseguras o insalubres.</li>
+          <li><strong>Tecnología e internet:</strong> brecha digital que afecta a estudiantes y trabajadores.</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-header">
+        <div class="icon-circle">🎥</div>
+        <div class="card-title">Video explicativo</div>
+      </div>
+      <div class="card-content">
+        <p>Este video explica por qué el acceso desigual a servicios básicos afecta al desarrollo humano:</p>
+        <div class="video-container">
+          <iframe src="https://www.youtube.com/embed/yZfC7fBz4-w" 
+                  title="Acceso limitado y desigualdad"
+                  allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+
+    <!-- CASO REAL -->
+    <div class="card" style="background: linear-gradient(to right, #f8fafc, #eef2ff);">
+      <div class="card-header">
+        <div class="icon-circle">📍</div>
+        <div class="card-title">Caso real: Falta de acceso a agua potable en África Subsahariana</div>
+      </div>
+      <div class="card-content">
+        <p>
+          En regiones de África Subsahariana, más de <strong>400 millones</strong> de personas no tienen acceso a agua potable. 
+          Muchas niñas deben caminar kilómetros cada día para recoger agua, lo que les impide asistir a la escuela.
+        </p>
+        <p>
+          La falta de agua limpia provoca enfermedades como diarrea, cólera o desnutrición, y es una de las principales causas de mortalidad infantil. 
+          Este caso muestra cómo el acceso limitado obstaculiza la educación, la salud y la igualdad de oportunidades.
+        </p>
+        <img src="https://images.unsplash.com/photo-1526312426976-f4d754fa9bd6?w=1920&q=80" 
+             alt="Falta de acceso al agua" 
+             style="width:100%; border-radius:1rem; margin-top:1rem;">
+      </div>
+    </div>
+
+    <div class="card" style="background: linear-gradient(to right, #e0f2fe, #ccfbf1);">
+      <div class="card-content">
+        <h3 style="font-size:1.5rem; font-weight:700; color:#0f172a;">¿Qué podemos hacer?</h3>
+        <ul style="list-style-type: disc; padding-left:1.5rem;">
+          <li>Invertir en infraestructuras: escuelas, hospitales, redes de agua.</li>
+          <li>Promover programas de becas y acceso educativo.</li>
+          <li>Garantizar servicios sanitarios universales.</li>
+          <li>Reducir la brecha digital mediante internet accesible.</li>
+          <li>Apoyar a ONG y proyectos comunitarios centrados en acceso básico.</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="cta">
+      <h3>El acceso a servicios básicos es un derecho</h3>
+      <p>Sin recursos esenciales no es posible el desarrollo personal ni social. La igualdad comienza garantizando oportunidades para todos.</p>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="footer-content">
+      <div class="footer-logo">🔒 Acceso Limitado</div>
+      <p>Proyecto educativo sobre la importancia de garantizar servicios esenciales para todos.</p>
+      <span>© 2024 Retos Sociales. Todos los derechos reservados.</span>
+    </div>
+  </footer>
+</body>
+</html>

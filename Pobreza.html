@@ -1,0 +1,203 @@
+  <!DOCTYPE html>
+  <html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pobreza | Retos Sociales</title>
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+      .acid-section {
+        max-width: 1100px;
+        margin: 4rem auto;
+        padding: 0 1.5rem;
+      }
+      .card {
+        background: #fff;
+        border-radius: 1rem;
+        box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+        margin-bottom: 2rem;
+        overflow: hidden;
+        transition: transform .3s, box-shadow .3s;
+      }
+      .card:hover {
+        transform: scale(1.02);
+        box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+      }
+      .card-header {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        padding: 1.5rem;
+        border-bottom: 1px solid #eee;
+      }
+      .icon-circle {
+        background: #e0f2fe;
+        color: #0369a1;
+        font-size: 1.25rem;
+        padding: 0.75rem;
+        border-radius: 50%;
+      }
+      .card-title {
+        font-size: 1.5rem;
+        font-weight: 700;
+        color: #0f172a;
+      }
+      .card-content {
+        padding: 1.5rem;
+        color: #334155;
+        line-height: 1.7;
+        font-size: 1rem;
+      }
+      .video-container {
+        position: relative;
+        padding-bottom: 56.25%;
+        height: 0;
+        overflow: hidden;
+        border-radius: 1rem;
+        box-shadow: 0 6px 20px rgba(0,0,0,0.2);
+        margin: 2rem 0;
+      }
+      .video-container iframe {
+        position: absolute;
+        top:0;
+        left:0;
+        width:100%;
+        height:100%;
+        border:0;
+      }
+    </style>
+  </head>
+  <body>
+
+    <!-- NAV -->
+    <nav class="navbar">
+      <div class="container">
+        <a href="index.html" class="logo">
+          <div class="logo-circle">⚖️</div>
+          <span>Retos Sociales</span>
+        </a>
+       <div class="nav-links">
+        <a href="index.html" class="active">Inicio</a>
+        <a href="desigualdad.html">Desigualdad</a>
+        <a href="pobreza.html">Pobreza</a>
+        <a href="accesolimitado.html">Acceso Limitado</a>
+        <a href="discriminacion.html">Discriminación</a>
+      </div>
+      </div>
+    </nav>
+
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero-overlay"></div>
+      <img src="https://images.unsplash.com/photo-1509099836639-18ba1795216d?q=80&w=1920" 
+          alt="Pobreza en el mundo" class="hero-bg">
+      <div class="hero-content">
+        <h1>Pobreza</h1>
+        <p>Uno de los retos sociales más graves: millones de personas sin acceso a recursos básicos.</p>
+      </div>
+    </section>
+
+    <!-- CONTENIDO -->
+    <section class="acid-section">
+
+      <div class="card">
+        <div class="card-content">
+          <p>
+            La <strong>pobreza</strong> es la situación en la que una persona no puede cubrir sus necesidades básicas: alimentación, vivienda, salud, educación y condiciones de vida dignas.
+          </p>
+          <p>
+            A nivel mundial, más de <strong>700 millones de personas</strong> viven en pobreza extrema, con menos de 2,15 dólares al día. La pobreza se agrava por conflictos, desigualdad, crisis económicas y desastres climáticos.
+          </p>
+          <img src="https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?q=80&w=1920" 
+              alt="Pobreza urbana" 
+              style="width:100%; border-radius:1rem; margin-top:1.5rem;">
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-header">
+          <div class="icon-circle">⚠️</div>
+          <div class="card-title">Principales causas de la pobreza</div>
+        </div>
+        <div class="card-content">
+          <ul style="list-style-type: disc; padding-left:1.5rem;">
+            <li>Desigualdad económica y falta de oportunidades laborales.</li>
+            <li>Acceso limitado a educación y formación profesional.</li>
+            <li>Falta de servicios sanitarios adecuados.</li>
+            <li>Conflictos armados y desplazamientos forzosos.</li>
+            <li>Crisis económicas, inflación y desempleo.</li>
+            <li>Desastres naturales y cambio climático.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-header">
+          <div class="icon-circle">🎥</div>
+          <div class="card-title">Video educativo</div>
+        </div>
+        <div class="card-content">
+          <p>Este video explica por qué existe la pobreza y cuáles son sus implicaciones sociales:</p>
+          <div class="video-container">
+            <iframe src="https://www.youtube.com/embed/GT51jMKWork" 
+                    title="Causas y consecuencias de la pobreza" 
+                    allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+
+      <!-- CASO REAL DE POBREZA -->
+      <div class="card" style="background: linear-gradient(to right, #f8fafc, #fef3c7);">
+        <div class="card-header">
+          <div class="icon-circle">📍</div>
+          <div class="card-title">Caso real: Pobreza infantil en Venezuela</div>
+        </div>
+        <div class="card-content">
+          <p>
+            En la última década, Venezuela ha atravesado una profunda crisis económica que ha provocado 
+            hiperinflación, escasez de alimentos y falta de servicios básicos. Como resultado, 
+            más del <strong>60% de los niños</strong> sufren desnutrición o carencias graves.
+          </p>
+          <p>
+            Muchas familias se ven obligadas a abandonar el país buscando oportunidades, lo que ha generado 
+            uno de los mayores éxodos migratorios de América Latina. Este caso evidencia cómo la 
+            <strong>inestabilidad económica</strong> puede derivar en pobreza masiva, pérdida de bienestar 
+            y ruptura social.
+          </p>
+          <img src="https://www.enca.com/sites/default/files/styles/article/public/2022-12/venezuela%20children.jpg" 
+              alt="Pobreza en niños" 
+              style="width:100%; border-radius:1rem; margin-top:1rem;">
+        </div>
+      </div>
+
+      <!-- ¿QUÉ PODEMOS HACER? -->
+      <div class="card" style="background: linear-gradient(to right, #e0f2fe, #ccfbf1);">
+        <div class="card-content">
+          <h3 style="font-size:1.5rem; font-weight:700; color:#0f172a;">¿Qué podemos hacer?</h3>
+          <ul style="list-style-type: disc; padding-left:1.5rem;">
+            <li>Apoyar organizaciones que trabajan contra la pobreza.</li>
+            <li>Promover políticas de empleo, educación y vivienda digna.</li>
+            <li>Reducir el desperdicio de alimentos y fomentar donaciones.</li>
+            <li>Participar en voluntariados o proyectos comunitarios.</li>
+            <li>Exigir a los gobiernos medidas para la redistribución de recursos.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="cta">
+        <h3>Un mundo sin pobreza es posible</h3>
+        <p>Combatir la pobreza requiere solidaridad, justicia y oportunidades para todos.</p>
+      </div>
+
+    </section>
+
+    <footer class="footer">
+      <div class="footer-content">
+        <div class="footer-logo">🤝 Retos Sociales</div>
+        <p>Proyecto educativo sobre igualdad, justicia social y derechos humanos.</p>
+        <span>© 2024 Retos Sociales. Todos los derechos reservados.</span>
+      </div>
+    </footer>
+
+  </body>
+  </html>

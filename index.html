@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Retos Sociales - Nuestro Mundo Hoy</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <!-- NAV -->
+  <nav class="navbar">
+    <div class="container">
+      <a href="index.html" class="logo">
+        <div class="logo-circle">🌍</div>
+        <span>Retos Sociales</span>
+      </a>
+
+      <div class="nav-links">
+        <a href="index.html" class="active">Inicio</a>
+        <a href="desigualdad.html">Desigualdad</a>
+        <a href="pobreza.html">Pobreza</a>
+        <a href="accesolimitado.html">Acceso Limitado</a>
+        <a href="discriminacion.html">Discriminación</a>
+      </div>
+
+      <!-- MENÚ MÓVIL -->
+      <select class="mobile-nav" onchange="if (this.value) window.location.href=this.value">
+        <option value="index.html" selected>Inicio</option>
+        <option value="desigualdad.html">Desigualdad</option>
+        <option value="pobreza.html">Pobreza</option>
+        <option value="accesolimitado.html">Acceso Limitado</option>
+        <option value="discriminacion.html">Discriminación</option>
+      </select>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-overlay"></div>
+    <img src="https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?w=1920&q=80" 
+         alt="Retos Sociales" class="hero-bg" />
+    <div class="hero-content">
+      <h1>Retos Sociales Actuales</h1>
+      <p>Comprende los desafíos sociales más importantes que afectan a millones de personas en el mundo</p>
+    </div>
+  </section>
+
+  <!-- TOPICS -->
+  <section class="topics">
+    <div class="section-header">
+      <h2>Principales Retos Sociales</h2>
+      <p>Explora cada uno para entender su impacto en la sociedad actual</p>
+    </div>
+
+    <div class="topics-grid">
+
+      <!-- DESIGUALDAD -->
+      <div class="topic-card">
+        <div class="topic-img">
+          <img src="https://images.unsplash.com/photo-1520975918318-3b82b0c34fa2?q=80&w=800" 
+               alt="Desigualdad social" />
+          <div class="icon-bg blue">⚖️</div>
+        </div>
+        <div class="topic-text">
+          <h3>Desigualdad Social</h3>
+          <p>Diferencias económicas y sociales que limitan el acceso a oportunidades.</p>
+          <a href="desigualdad.html" class="explore">Explorar tema →</a>
+        </div>
+      </div>
+
+      <!-- POBREZA -->
+      <div class="topic-card">
+        <div class="topic-img">
+          <img src="https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?q=80&w=800" 
+               alt="Pobreza" />
+          <div class="icon-bg gray">🤝</div>
+        </div>
+        <div class="topic-text">
+          <h3>Pobreza</h3>
+          <p>La falta de recursos básicos afecta a millones de personas en el mundo.</p>
+          <a href="pobreza.html" class="explore">Explorar tema →</a>
+        </div>
+      </div>
+
+      <!-- ACCESO LIMITADO -->
+      <div class="topic-card">
+        <div class="topic-img">
+          <img src="https://images.unsplash.com/photo-1526312426976-f4d754fa9bd6?w=800&q=80" 
+               alt="Acceso limitado a servicios" />
+          <div class="icon-bg orange">🚫</div>
+        </div>
+        <div class="topic-text">
+          <h3>Acceso Limitado a Servicios</h3>
+          <p>La falta de educación, salud o agua potable afecta el desarrollo humano.</p>
+          <a href="accesolimitado.html" class="explore">Explorar tema →</a>
+        </div>
+      </div>
+
+      <!-- DISCRIMINACIÓN -->
+      <div class="topic-card">
+        <div class="topic-img">
+          <img src="https://images.unsplash.com/photo-1509099836639-18ba1795216d?q=80&w=800" 
+               alt="Discriminación" />
+          <div class="icon-bg red">✋</div>
+        </div>
+        <div class="topic-text">
+          <h3>Discriminación</h3>
+          <p>Diferencias de trato por raza, género, orientación o condición social.</p>
+          <a href="discriminacion.html" class="explore">Explorar tema →</a>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- CTA FINAL -->
+    <div class="cta">
+      <h3>El cambio empieza con la conciencia</h3>
+      <p>Informarnos es el primer paso para construir una sociedad más justa e inclusiva.</p>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-content">
+      <div class="footer-logo">🌍 Retos Sociales</div>
+      <p>Comprometidos con la reflexión y la educación sobre los desafíos humanos actuales.</p>
+      <span>© 2024 Retos Sociales. Todos los derechos reservados.</span>
+    </div>
+  </footer>
+
+</body>
+</html>
